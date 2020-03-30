@@ -57,7 +57,7 @@ const Home = () => {
         </Expand>
       </Container>
 
-      <Container id="project" width={1} height={800} bgcolor="green">
+      <Container id="project" width={1} height={800} bgcolor="#388e3c">
         <Container
           width={1}
           textAlign="center"

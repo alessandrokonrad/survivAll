@@ -3,7 +3,7 @@ import { makeStyles, Box } from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
   item: {
-    "&:hover": { background: "none", color: "green", cursor: "pointer" }
+    "&:hover": { color: "#388e3c", cursor: "pointer" }
   }
 }));
 

@@ -1,22 +1,23 @@
 import React from "react";
 import { makeStyles, Button } from "@material-ui/core";
 
-const primaryStyles = makeStyles({
+const primaryStyles = makeStyles(props => ({
   root: {
-    background: "linear-gradient(left, green 0%, green 80%, green 100%)",
+    background: `linear-gradient(left, ${props.bgcolor ||
+      "#388e3c"} 0%, ${props.bgcolor || "#388e3c"} 80%, ${props.bgcolor ||
+      "#388e3c"} 100%)`,
     border: 0,
     borderRadius: 20,
     textTransform: "none",
-    color: "white",
-    transition: "0.5s",
+    color: props.textColor || "white",
     "&:hover": {
       filter: "brightness(1.2)"
     }
   }
-});
+}));
 
 const NormalButton = props => {
-  const styles = primaryStyles();
+  const styles = primaryStyles(props);
   return (
     <Button
       {...props}

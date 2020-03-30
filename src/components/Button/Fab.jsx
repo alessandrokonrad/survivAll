@@ -14,8 +14,8 @@ const Fab = props => {
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       size="small"
       style={{
-        color: "white",
-        background: "black",
+        color: "black",
+        background: "whitesmoke",
         position: "fixed",
         right: 30,
         bottom: 30
