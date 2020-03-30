@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b13a2b4fcbc9857e109b74860aa0b18",
+    "revision": "73a395536b895833c48748fb2b905b38",
     "url": "/survivAll/index.html"
   },
   {
-    "revision": "feb9b8a80ad8b5f9d07b",
+    "revision": "cd7ce395a3dff072b37a",
     "url": "/survivAll/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "4af1af55f0be78fc3ab4",
-    "url": "/survivAll/static/js/2.0f0106df.chunk.js"
+    "revision": "b41ac33dfecc290fc8c8",
+    "url": "/survivAll/static/js/2.7aef648e.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/survivAll/static/js/2.0f0106df.chunk.js.LICENSE.txt"
+    "url": "/survivAll/static/js/2.7aef648e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "feb9b8a80ad8b5f9d07b",
-    "url": "/survivAll/static/js/main.c1390c28.chunk.js"
+    "revision": "cd7ce395a3dff072b37a",
+    "url": "/survivAll/static/js/main.b1e25ede.chunk.js"
   },
   {
     "revision": "64f6af64f0e78cadb05e",
@@ -26,5 +26,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6b860cb5ae47df6b63834d72cbf75f24",
     "url": "/survivAll/static/media/ecology.6b860cb5.svg"
+  },
+  {
+    "revision": "6c75bfc5fdb4b45e46be175486b44899",
+    "url": "/survivAll/static/media/logo.6c75bfc5.svg"
   }
 ]);
