@@ -17,7 +17,8 @@ const Drawer = props => {
           >
             <img style={{ marginRight: 5 }} src={Logo} width={40} />
             <Box fontFamily="'Nunito', sans-serif" fontSize={26}>
-              Surviv<span style={{ color: "#388e3c" }}>A</span>ll
+              <span style={{ color: "#4fc3f7" }}>S</span>urviv
+              <span style={{ color: "#388e3c" }}>A</span>ll
             </Box>
           </Container>
           <Container center width={1} height={2}>

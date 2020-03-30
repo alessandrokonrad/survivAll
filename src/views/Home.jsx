@@ -20,9 +20,9 @@ const Home = () => {
               justifyContent: "center"
             }}
           >
-            <Container maxWidth={400}>
-              <Box fontSize={46} fontWeight="bold">
-                SurvivAll Header
+            <Container maxWidth={500}>
+              <Box fontSize={60} fontWeight="bold" color="#388e3c">
+                SURVIVALL HEADER
               </Box>
               <Box fontSize={26} fontWeight="lighter" my={4}>
                 It is a long established fact that a reader will be distracted
@@ -42,8 +42,7 @@ const Home = () => {
             ></img>
           </Grid>
         </Grid>
-        <Expand mt={10} color="inherit">
-          {" "}
+        <Expand my={5} color="inherit">
           <Icon
             fontSize="large"
             onClick={() =>
