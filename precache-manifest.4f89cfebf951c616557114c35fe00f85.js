@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "73a395536b895833c48748fb2b905b38",
+    "revision": "b40699f939fe6b496570e0b29d285f67",
     "url": "/survivAll/index.html"
   },
   {
-    "revision": "cd7ce395a3dff072b37a",
+    "revision": "7e4a96bec0ca56eacfad",
     "url": "/survivAll/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "b41ac33dfecc290fc8c8",
-    "url": "/survivAll/static/js/2.7aef648e.chunk.js"
+    "revision": "3ae1cba22fad9cc4e2e5",
+    "url": "/survivAll/static/js/2.f2968208.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/survivAll/static/js/2.7aef648e.chunk.js.LICENSE.txt"
+    "url": "/survivAll/static/js/2.f2968208.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cd7ce395a3dff072b37a",
-    "url": "/survivAll/static/js/main.b1e25ede.chunk.js"
+    "revision": "7e4a96bec0ca56eacfad",
+    "url": "/survivAll/static/js/main.5ab11400.chunk.js"
   },
   {
     "revision": "64f6af64f0e78cadb05e",
     "url": "/survivAll/static/js/runtime-main.b812f01b.js"
+  },
+  {
+    "revision": "9331436748d8cd6022338f8238e3d7a1",
+    "url": "/survivAll/static/media/banner.93314367.svg"
   },
   {
     "revision": "6b860cb5ae47df6b63834d72cbf75f24",
