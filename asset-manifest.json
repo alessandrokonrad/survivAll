@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/survivAll/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/survivAll/static/js/main.24097b3c.chunk.js",
+    "main.js.map": "/survivAll/static/js/main.24097b3c.chunk.js.map",
+    "runtime-main.js": "/survivAll/static/js/runtime-main.b812f01b.js",
+    "runtime-main.js.map": "/survivAll/static/js/runtime-main.b812f01b.js.map",
+    "static/js/2.0f0106df.chunk.js": "/survivAll/static/js/2.0f0106df.chunk.js",
+    "static/js/2.0f0106df.chunk.js.map": "/survivAll/static/js/2.0f0106df.chunk.js.map",
+    "index.html": "/survivAll/index.html",
+    "precache-manifest.aa657b4c02fc702b1e17984fcf99ab8b.js": "/survivAll/precache-manifest.aa657b4c02fc702b1e17984fcf99ab8b.js",
+    "service-worker.js": "/survivAll/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/survivAll/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.0f0106df.chunk.js.LICENSE.txt": "/survivAll/static/js/2.0f0106df.chunk.js.LICENSE.txt",
+    "static/media/ecology.svg": "/survivAll/static/media/ecology.6b860cb5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b812f01b.js",
+    "static/js/2.0f0106df.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.24097b3c.chunk.js"
+  ]
+}
