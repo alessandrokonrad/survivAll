@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/Bar";
+import Container from "./components/Container";
+import { TopButton } from "./components/Button";
+import { Router, Route } from "./components/Router";
+import { createMuiTheme, ThemeProvider } from "@material-ui/core";
+import { Home } from "./views";
 
-function App() {
+const theme = createMuiTheme({
+  props: {
+    // Name of the component ⚛️
+    MuiButtonBase: {
+      // The properties to apply
+      disableRipple: true // No more ripple, on the whole application 💣!
+    }
+  }
+});
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Container minHeight="100vh">
+        <Header />
+        <Router>
+          <Route exact path="/" component={Home} title="Home | SurvivAll" />
+        </Router>
+      </Container>
+      <TopButton />
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
