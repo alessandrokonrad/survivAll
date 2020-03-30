@@ -22,7 +22,12 @@ const App = () => {
       <Container minHeight="100vh">
         <Header />
         <Router>
-          <Route exact path="/" component={Home} title="Home | SurvivAll" />
+          <Route
+            exact
+            path={process.env.PUBLIC_URL + "/"}
+            component={Home}
+            title="Home | SurvivAll"
+          />
         </Router>
       </Container>
       <TopButton />
