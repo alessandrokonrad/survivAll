@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/survivAll/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/survivAll/static/js/main.e72daeb7.chunk.js",
-    "main.js.map": "/survivAll/static/js/main.e72daeb7.chunk.js.map",
+    "main.js": "/survivAll/static/js/main.b7c20951.chunk.js",
+    "main.js.map": "/survivAll/static/js/main.b7c20951.chunk.js.map",
     "runtime-main.js": "/survivAll/static/js/runtime-main.b812f01b.js",
     "runtime-main.js.map": "/survivAll/static/js/runtime-main.b812f01b.js.map",
     "static/js/2.36b3b584.chunk.js": "/survivAll/static/js/2.36b3b584.chunk.js",
     "static/js/2.36b3b584.chunk.js.map": "/survivAll/static/js/2.36b3b584.chunk.js.map",
     "index.html": "/survivAll/index.html",
-    "precache-manifest.00a0d78dbe99316e49bbc4a0d4e0b9e8.js": "/survivAll/precache-manifest.00a0d78dbe99316e49bbc4a0d4e0b9e8.js",
+    "precache-manifest.a0ee83b93d2d00821cb49f2ca8f278a5.js": "/survivAll/precache-manifest.a0ee83b93d2d00821cb49f2ca8f278a5.js",
     "service-worker.js": "/survivAll/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/survivAll/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.36b3b584.chunk.js.LICENSE.txt": "/survivAll/static/js/2.36b3b584.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.b812f01b.js",
     "static/js/2.36b3b584.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.e72daeb7.chunk.js"
+    "static/js/main.b7c20951.chunk.js"
   ]
 }
