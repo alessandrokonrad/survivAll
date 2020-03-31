@@ -11,6 +11,12 @@ const Bar = () => {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));
   const [openDrawer, setOpenDrawer] = React.useState(false);
+
+  const goTo = id => {
+    setOpenDrawer(false);
+    document.getElementById("project").scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <Container center height={110} width={1}>
       {matches ? (
@@ -36,7 +42,9 @@ const Bar = () => {
           {/* Drawer */}
           <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)}>
             <BarItem mt={3}>Home</BarItem>
-            <BarItem mt={3}>Project</BarItem>
+            <BarItem mt={3} onClick={() => goTo("project")}>
+              Project
+            </BarItem>
             <BarItem mt={3}>Technology</BarItem>
             <BarItem mt={3}>Advantages</BarItem>
             <BarItem mt={3}>Company</BarItem>
@@ -67,7 +75,7 @@ const Bar = () => {
             alignItems="center"
           >
             <BarItem>Home</BarItem>
-            <BarItem>Project</BarItem>
+            <BarItem onClick={() => goTo("project")}>Project</BarItem>
             <BarItem>Technology</BarItem>
             <BarItem>Advantages</BarItem>
             <BarItem>Company</BarItem>
