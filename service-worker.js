@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/survivAll/precache-manifest.4f89cfebf951c616557114c35fe00f85.js"
+  "/survivAll/precache-manifest.00a0d78dbe99316e49bbc4a0d4e0b9e8.js"
 );
 
 self.addEventListener('message', (event) => {
